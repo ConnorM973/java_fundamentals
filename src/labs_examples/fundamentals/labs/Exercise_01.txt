@@ -23,3 +23,47 @@ Example Output:
     2. mkdir Terminal_testing
     3. //...
 
+Connor Output:
+    1. cd /c/Documents/CodingNomads/
+    2. mkdir Terminal_testing
+    3a. touch a.txt b.txt c.txt
+     b. pwd
+        /c/Documents/CodingNomads/Terminal_testing
+     c. ls -al
+        total 4
+        drwxr-xr-x 1 conno 197609 0 Jun 22 16:46 ./
+        drwxr-xr-x 1 conno 197609 0 Jun 22 16:43 ../
+        -rw-r--r-- 1 conno 197609 0 Jun 22 16:46 a.txt
+        -rw-r--r-- 1 conno 197609 0 Jun 22 16:46 b.txt
+        -rw-r--r-- 1 conno 197609 0 Jun 22 16:46 c.txt
+    5. mkdir Examples
+    6. cp a.txt /c/Documents/CodingNomads/Terminal_testing/Examples
+    7. mv b.txt /c/Documents/CodingNomads/Terminal_testing/Examples/
+       ls -al
+       total 0
+       drwxr-xr-x 1 conno 197609 0 Jun 22 16:58 ./
+       drwxr-xr-x 1 conno 197609 0 Jun 22 16:58 ../
+       -rw-r--r-- 1 conno 197609 0 Jun 22 16:56 a.txt
+       -rw-r--r-- 1 conno 197609 0 Jun 22 16:46 b.txt
+    8a. rm a.txt
+     b. cd ..
+        rm -r Terminal_testing
+        ls -al
+        total 8
+        drwxr-xr-x 1 conno 197609 0 Jun 22 17:05 ./
+        drwxr-xr-x 1 conno 197609 0 Jun 19 13:26 ../
+        -rw-r--r-- 1 conno 197609 0 Jun 19 13:32 file.txt
+        -rw-r--r-- 1 conno 197609 0 Jun 19 13:32 file2.txt
+        drwxr-xr-x 1 conno 197609 0 Jun 21 16:52 java_summer_session/
+        drwxr-xr-x 1 conno 197609 0 Jun 19 14:13 labs/
+        drwxr-xr-x 1 conno 197609 0 Jun 19 13:26 projects/
+        drwxr-xr-x 1 conno 197609 0 Jun 19 13:26 resources/
+    9a. vim file3.txt
+     b. cat file3.txt
+        Testing 1 2 3
+
+        abcdefghijklmnopqrstuvwxyz
+     c. grep -i "ABCDEF" file3.txt
+        abcdefghijklmnopqrstuvwxyz
+
+
