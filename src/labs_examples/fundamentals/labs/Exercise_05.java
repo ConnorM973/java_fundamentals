@@ -18,8 +18,8 @@ public class Exercise_05 {
         String str2 = "hello";
         int b = str2.length();
         // please initialize a boolean variable and test whether str is equal to str2
-        boolean c = a == b;
-        System.out.println("True or false: is str the same length as str2? " + c);
+        boolean c = str.equals(str2);
+        System.out.println("True or false: is str equal to str2? " + c);
         // please concatenate str & str2 and set the result to a new String variable below
         String str3 = str.concat(str2);
         System.out.println(str3);
