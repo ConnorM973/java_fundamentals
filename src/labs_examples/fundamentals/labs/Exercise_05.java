@@ -21,7 +21,7 @@ public class Exercise_05 {
         boolean c = str.equals(str2);
         System.out.println("True or false: is str equal to str2? " + c);
         // please concatenate str & str2 and set the result to a new String variable below
-        String str3 = str.concat(str2);
+        String str3 = str+str2;
         System.out.println(str3);
         // please demonstrate the use of any other method that is available to us in the String class
         // for example, replace(), substring(), contains(), indexOf() etc
