@@ -18,8 +18,30 @@ class RelationalOperators {
         }
 
         // write your code below
-
+        byte c = 25;
+        byte d = 30;
+        if (c <= d){
+            System.out.println("c is less than or equal to d");
+        }
+        byte e  = 50;
+        byte f = 49;
+        if (e > f){
+            System.out.println("e is greater than f");
+        } else{
+            System.out.println("e is less than or equal to f");
+        }
+        byte g  = 50;
+        byte h = 50;
+        if (g >= h){
+            System.out.println("g is greater than or equal to h");
+        }
+        byte i = 30;
+        byte j = 30;
+        if (i==j){
+            System.out.println("i and j are equal");
+        }
+    }
     }
 
-}
+
 
