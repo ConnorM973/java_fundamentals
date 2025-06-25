@@ -24,6 +24,12 @@ public class Exercise_01 {
         int number = scanner.nextInt();
 
         // write completed code here
-
+        int remainder = number % 2;
+        if (remainder == 0){
+            System.out.println("The Number is Even");
+        }
+        else {
+            System.out.println("The Number is Odd");
+        }
     }
 }
