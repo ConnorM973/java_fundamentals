@@ -18,6 +18,16 @@ package labs_examples.arrays.labs;
 public class Exercise_03 {
 
     public static void main(String[] args) {
-        
-    }
+        int numofRows=5;
+        int numofCols = 5;
+        int[][] matrix = new int[numofRows][numofCols];
+        int start =3;
+        for (int a=0;a<5;a++) {
+            for (int b = 0; b < 5; b++) {
+                matrix[a][b] = start;
+                start = start + 3;
+                System.out.print(matrix[a][b]+" ");
+        }
+            System.out.println();
+    }}
 }
