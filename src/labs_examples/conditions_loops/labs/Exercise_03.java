@@ -52,7 +52,7 @@ public class Exercise_03 {
                         monthofYear="November";
                         break;
                 case 12:
-                        monthofYear="August";
+                        monthofYear="December";
                         break;
                 default:
                         monthofYear="N/A";

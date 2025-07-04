@@ -25,8 +25,8 @@ public class Exercise_05 {
         double average = ((double) number1 + (double) number2) / 2;
         int sum = 0;
         for (number1 = number1; number1 <= number2; number1++) {
-            sum = sum + number1 + number2;
-            number2 = number2 - 1;
+            sum = sum + number1;
+
         }
 
         System.out.println("The sum is: " + sum);

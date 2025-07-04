@@ -11,8 +11,8 @@ package labs_examples.arrays.labs;
 public class Exercise_05 {
     public static void main(String[] args) {
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-        for (int a = 2; a >= 0; a = a - 1) {
-            for (int b = 2; b >= 0; b = b - 1) {
+        for (int a = 2; a >= 0; a--){
+            for (int b = 2; b >= 0; b--) {
                 System.out.print(matrix[a][b] + " ");
             }
             System.out.println();
