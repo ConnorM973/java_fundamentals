@@ -19,9 +19,13 @@ public class Exercise_02 {
         // write code here
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter a number from 1-10 to find the value of that index in the array");
-        int position = scanner.nextInt()-1;
-        System.out.println(array[position]);
+        System.out.println("Enter a number from 1-10 to find the index of that number");
+        int position = scanner.nextInt();
+        for(int i=0;i<10;i++){
+            if (array[i]==position){
+                System.out.println("The index of the number is " + i);
+            }
+        }
 
     }
 }
