@@ -25,7 +25,7 @@ public class Exercise_03 {
             for (int b = 0; b < 5; b++) {
                 matrix[a][b] = start;
                 start = start + 3;
-                System.out.print(matrix[a][b] + " ");
+                System.out.print(matrix[a][b] + "\t");
             }
             System.out.println();
         }
