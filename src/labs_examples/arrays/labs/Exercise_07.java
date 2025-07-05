@@ -30,5 +30,9 @@ public class Exercise_07 {
 
         int size = practice.size();
         System.out.println("The array is size " + size);
+
+        practice.remove(0);
+        String newFirstValue = practice.get(0);
+        System.out.println(newFirstValue);
     }
 }
