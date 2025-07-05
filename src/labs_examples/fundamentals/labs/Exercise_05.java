@@ -28,6 +28,7 @@ public class Exercise_05 {
         String str4 = "Hi!";
         String str5 = str4.replace('!','.');
         System.out.println(str5);
+
     }
 
 

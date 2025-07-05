@@ -18,7 +18,7 @@ public class Exercise_06 {
 
         int temp;
 
-        // Question: in the for loop below, why do we divide "nums.length" by 2? Because the array is done at the 3rd index (middle), each number is swapped
+        // Question: in the for loop below, why do we divide "nums.length" by 2? Because the array is done right before we get to the middle, each number is swapped with the number directly across from it (equidistant from the middle
         for (int i = 0; i < nums.length / 2; i++) {
             temp = nums[nums.length - i - 1];
             nums[nums.length - 1 - i] = nums[i];
