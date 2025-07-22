@@ -1,7 +1,8 @@
 
 Without running the code below, please tell me what it will print.
 
-
+This will print "Child called" as the object instantiated is a child, and the doSomething() method in the child class is called, which implicitly overrides the
+method of the same name in the parent class.
 
 public class InheritanceTest
 {

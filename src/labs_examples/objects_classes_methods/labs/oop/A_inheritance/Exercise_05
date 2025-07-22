@@ -1,7 +1,8 @@
 
 Without running the code below, please tell me what will print. Why?
 
-
+"Parent called" will print on the first line and "Child called" will print on the second. When the child object is created, the constructor of the parent class is called first to make sure that
+the object created is has all of its correct parameters (in this case none). It then moves down to the subclass Child method and prints the "Child called".
 
 
 public class InheritanceTest
