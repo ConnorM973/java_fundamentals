@@ -4,9 +4,10 @@ public class Player {
     private String name;
     private int potValue;
     Hand hand;
-    boolean win;
+    private boolean win;
     private static int numPlayers;
     private int bet;
+    private int winCount;
 
     public Player(String name, int potValue) {
         this.name = name;
@@ -58,4 +59,11 @@ public class Player {
         this.potValue = potValue;
     }
 
+    public int getWinCount() {
+        return winCount;
+    }
+
+    public void setWinCount(int winCount) {
+        this.winCount = winCount;
+    }
 }

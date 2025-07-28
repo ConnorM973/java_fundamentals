@@ -36,6 +36,11 @@ public class Hand {
             usedCards.add(card1);
             System.out.println("a "+card1.getCardName()+" is dealt");
             handValue=handValue+card1.getCardValue();
+            if (card1.getCardValue()==1){
+                if(handValue<=11){
+                    handValue=handValue+10;
+                }
+            }
             i++;
         }
         System.out.println("Current hand value is "+handValue);
@@ -56,11 +61,16 @@ public class Hand {
             }
             cards.add(card1);
             usedCards.add(card1);
-            System.out.println("Dealer: ");
             if(i==0){
             System.out.println("a face down card is dealt");
             handValue=handValue+card1.getCardValue();
-            i++;}
+                if (card1.getCardValue()==1){
+                    if(handValue<=11){
+                        handValue=handValue+10;
+                    }
+                }
+            i++;
+            }
             else{
                 System.out.println("a "+card1.getCardName()+" is dealt");
                 handValue=handValue+card1.getCardValue();

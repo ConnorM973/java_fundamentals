@@ -39,32 +39,7 @@ public class Card {
     public int getCardValue() {
         return cardValue;
     }
-    //    public void setAll(Card newCard, int i) {
-//        newCard.usedIndicator=false;
-//        newCard.setCardValue(i + 1);
-//        newCard.setCardName(newCard.getCardValue(), newCard.getSuit());
-//        if (i == 0) {
-//            newCard.setCardValue(1);
-//            newCard.setFaceCard('A');
-//            newCard.setCardName(newCard.getFaceCard(), newCard.getSuit());
-//        }
-//        if (i == 10) {
-//            newCard.setCardValue(10);
-//            newCard.setFaceCard('J');
-//            newCard.setCardName(newCard.getFaceCard(), newCard.getSuit());
-//        }
-//        if (i == 11) {
-//            newCard.setCardValue(10);
-//            newCard.setFaceCard('Q');
-//            newCard.setCardName(newCard.getFaceCard(), newCard.getSuit());
-//        }
-//        if (i == 12) {
-//            newCard.setCardValue(10);
-//            newCard.setFaceCard('K');
-//            newCard.setCardName(newCard.getFaceCard(), newCard.getSuit());
-//        }
-//
-//    }
+
 
     @Override
     public String toString() {
